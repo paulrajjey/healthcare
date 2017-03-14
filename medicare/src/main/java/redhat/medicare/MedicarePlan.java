@@ -12,9 +12,9 @@ public class MedicarePlan implements java.io.Serializable
    private java.lang.String name;
    private java.lang.String type;
    private java.lang.String coverage;
-   private double medicarePay;
-   private double basicPlanPays;
-   private double youpay;
+   private String medicarePay;
+   private String basicPlanPays;
+   private String youpay;
 
    public MedicarePlan()
    {
@@ -50,39 +50,39 @@ public class MedicarePlan implements java.io.Serializable
       this.coverage = coverage;
    }
 
-   public double getMedicarePay()
+   public java.lang.String getMedicarePay()
    {
       return this.medicarePay;
    }
 
-   public void setMedicarePay(double medicarePay)
+   public void setMedicarePay(java.lang.String medicarePay)
    {
       this.medicarePay = medicarePay;
    }
 
-   public double getBasicPlanPays()
+   public java.lang.String getBasicPlanPays()
    {
       return this.basicPlanPays;
    }
 
-   public void setBasicPlanPays(double basicPlanPays)
+   public void setBasicPlanPays(java.lang.String basicPlanPays)
    {
       this.basicPlanPays = basicPlanPays;
    }
 
-   public double getYoupay()
+   public java.lang.String getYoupay()
    {
       return this.youpay;
    }
 
-   public void setYoupay(double youpay)
+   public void setYoupay(java.lang.String youpay)
    {
       this.youpay = youpay;
    }
 
    public MedicarePlan(java.lang.String name, java.lang.String type,
-         java.lang.String coverage, double medicarePay,
-         double basicPlanPays, double youpay)
+         java.lang.String coverage, java.lang.String medicarePay,
+         java.lang.String basicPlanPays, java.lang.String youpay)
    {
       this.name = name;
       this.type = type;
