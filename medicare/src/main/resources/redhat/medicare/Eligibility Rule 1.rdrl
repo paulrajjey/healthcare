@@ -1,0 +1,9 @@
+package redhat.medicare;
+
+import java.lang.Number;
+
+rule "Eligibility Rule 1"
+	dialect "mvel"
+	when
+	then
+end
