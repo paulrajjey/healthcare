@@ -57,7 +57,7 @@
     </insert-fact-column52>
     <insert-fact-column52>
       <typedDefaultValue>
-        <valueString>Hospitalization,Medical Expense,Skilled Nursing Facility Care,Blood,Hospice Care,Laboratory Services,Preventive Medical Care Benefit</valueString>
+        <valueString>Hospitalization,Medical Expense</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
