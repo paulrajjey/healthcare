@@ -57,7 +57,7 @@
     </insert-fact-column52>
     <insert-fact-column52>
       <typedDefaultValue>
-        <valueString>Hospitalization,Medical Expense</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -68,6 +68,7 @@
       <boundName>plan</boundName>
       <factField>coverage</factField>
       <type>String</type>
+      <valueList>Hospitalization,Medical Expense,Skilled Nursing Facility Care,Blood,Hospice Care,Laboratory Services,Preventive Medical Care Benefit</valueList>
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
     <insert-fact-column52>
