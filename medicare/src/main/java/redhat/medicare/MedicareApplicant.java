@@ -25,6 +25,12 @@ public class MedicareApplicant implements java.io.Serializable
 
    private java.lang.String reasonForNotEligible;
 
+   private java.lang.String state;
+
+   private java.lang.String zipcode;
+
+   private java.lang.String address;
+
    public MedicareApplicant()
    {
    }
@@ -133,12 +139,43 @@ public class MedicareApplicant implements java.io.Serializable
       this.reasonForNotEligible = reasonForNotEligible;
    }
 
+   public java.lang.String getState()
+   {
+      return this.state;
+   }
+
+   public void setState(java.lang.String state)
+   {
+      this.state = state;
+   }
+
+   public java.lang.String getZipcode()
+   {
+      return this.zipcode;
+   }
+
+   public void setZipcode(java.lang.String zipcode)
+   {
+      this.zipcode = zipcode;
+   }
+
+   public java.lang.String getAddress()
+   {
+      return this.address;
+   }
+
+   public void setAddress(java.lang.String address)
+   {
+      this.address = address;
+   }
+
    public MedicareApplicant(java.lang.String name, java.lang.Integer age,
          java.util.Date dateOfBirth, java.lang.Integer noOfYrsMedcarePaid,
          java.lang.String anyotherInsurance, java.lang.String liveInUS,
          java.lang.String diabliltyOrSpecialCondition,
          java.lang.String areYouUSCitizen, java.lang.String eligibiliy,
-         java.lang.String reasonForNotEligible)
+         java.lang.String reasonForNotEligible, java.lang.String state,
+         java.lang.String zipcode, java.lang.String address)
    {
       this.name = name;
       this.age = age;
@@ -150,6 +187,9 @@ public class MedicareApplicant implements java.io.Serializable
       this.areYouUSCitizen = areYouUSCitizen;
       this.eligibiliy = eligibiliy;
       this.reasonForNotEligible = reasonForNotEligible;
+      this.state = state;
+      this.zipcode = zipcode;
+      this.address = address;
    }
 
 }
