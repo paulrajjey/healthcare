@@ -5,6 +5,8 @@ import java.lang.Number;
 rule "Eligibility Rule 1"
 	dialect "mvel"
 	when
-		MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
+		app : MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
 	then
+		app.setEligibiliy( "N" );
+		app.setReasonForNotEligible( "Medicare is for people age 65 and older and those who have special condition or disability." );
 end
