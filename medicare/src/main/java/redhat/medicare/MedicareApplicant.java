@@ -37,7 +37,7 @@ public class MedicareApplicant implements java.io.Serializable
    public java.lang.Integer getAge()
    {
       Years years = Years.yearsBetween(new LocalDate(getBirthDate()), new LocalDate());
-    return years.getYears();
+      this.age =  years.getYears();
     
       return this.age;
    }
