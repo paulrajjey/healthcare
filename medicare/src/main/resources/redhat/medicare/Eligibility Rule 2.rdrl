@@ -5,6 +5,6 @@ import java.lang.Number;
 rule "Eligibility Rule 2"
 	dialect "mvel"
 	when
-		MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
+		MedicareApplicant( age >= 65 , areYouUSCitizen == "N" )
 	then
 end
