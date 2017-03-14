@@ -1,5 +1,5 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="medcare" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+  <kbase name="medcare" default="true" eventProcessingMode="cloud" equalsBehavior="identity">
     <ksession name="medicaresession" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
