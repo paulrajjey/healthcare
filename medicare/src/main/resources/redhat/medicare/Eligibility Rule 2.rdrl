@@ -1,0 +1,10 @@
+package redhat.medicare;
+
+import java.lang.Number;
+
+rule "Eligibility Rule 2"
+	dialect "mvel"
+	when
+		MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
+	then
+end
