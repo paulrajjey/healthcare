@@ -1,2 +1,6 @@
 package redhat.medicare;
 
+redhat.medicare.MedicarePlan
+query "Medicare-plan Results"
+    medicarePlans : redhat.medicare.MedicarePlan()
+end
