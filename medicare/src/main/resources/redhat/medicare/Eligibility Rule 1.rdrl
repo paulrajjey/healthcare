@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "Eligibility Rule 1"
 	dialect "mvel"
+	no-loop true
 	when
 		app : MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
 	then
