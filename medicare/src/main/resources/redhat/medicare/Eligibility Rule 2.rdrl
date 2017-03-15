@@ -8,6 +8,8 @@ rule "Eligibility Rule 2"
 	when
 		app : MedicareApplicant( age >= 65 , areYouUSCitizen != "Y" )
 	then
-		app.setEligibiliy( "N" );
-		app.setReasonForNotEligible( "Not a US Citizen. Medicare is applicable for only US citizen" );
+		modify( app ) {
+				setEligibiliy( "N" ), 
+				setReasonForNotEligible( "Not a US Citizen. Medicare is applicable for only US citizen" )
+		}
 end
