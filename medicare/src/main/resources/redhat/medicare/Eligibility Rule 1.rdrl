@@ -8,6 +8,8 @@ rule "Eligibility Rule 1"
 	when
 		app : MedicareApplicant( age < 65 , diabliltyOrSpecialCondition != "Y" )
 	then
-		app.setEligibiliy( "N" );
-		app.setReasonForNotEligible( "Jey-Medicare is for people age 65 and older and those who have special condition or disability." );
+		modify( app ) {
+				setEligibiliy( "N" ), 
+				setReasonForNotEligible( "Medicare is for people age 65 and older and those who have special condition or disability." )
+		}
 end
