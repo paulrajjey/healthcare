@@ -1,6 +1,5 @@
 package redhat.medicare;
 
-redhat.medicare.MedicarePlan
 query "Medicare-plan Results"
-    medicarePlans : redhat.medicare.MedicarePlan()
+    medicarePlans : java.util.List() from collect (redhat.medicare.MedicarePlan())
 end
