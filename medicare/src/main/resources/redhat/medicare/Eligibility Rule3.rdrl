@@ -1,0 +1,15 @@
+package redhat.medicare;
+
+import java.lang.Number;
+
+rule "Eligibility Rule3"
+	dialect "mvel"
+	no-loop true
+	when
+		app : MedicareApplicant( age >= 65 , areYouUSCitizen != "Y" )
+	then
+		modify( app ) {
+				setEligibiliy( "N" ), 
+				setReasonForNotEligible( "Not a US Citizen. Medicare is applicable for only US citizen" )
+		}
+end
