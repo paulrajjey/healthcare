@@ -6,10 +6,10 @@ rule "Eligibility Rule3"
 	dialect "mvel"
 	no-loop true
 	when
-		app : MedicareApplicant( age >= 65 , areYouUSCitizen != "Y" )
+		app : MedicareApplicant( st : state not in ( "MN", "WI" ) )
 	then
 		modify( app ) {
 				setEligibiliy( "N" ), 
-				setReasonForNotEligible( "Not a US Citizen. Medicare is applicable for only US citizen" )
+				setReasonForNotEligible( " Medicare coverage not available for " + st )
 		}
 end
