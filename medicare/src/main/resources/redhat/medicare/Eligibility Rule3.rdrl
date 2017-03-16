@@ -10,6 +10,6 @@ rule "Eligibility Rule3"
 	then
 		modify( app ) {
 				setEligibiliy( "N" ), 
-				setReasonForNotEligible( " Medicare coverage not available for " + st )
+				setReasonForNotEligible( " Medicare coverage not available for the state of " + st )
 		}
 end
