@@ -301,12 +301,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>60%</valueString>
+        <valueString>70%</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>$40</valueString>
+        <valueString>$60</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
