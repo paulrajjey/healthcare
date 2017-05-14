@@ -13,6 +13,32 @@ public class Claim implements java.io.Serializable
    private java.util.Date dateOfNotice;
    private java.util.Date informedDate;
 
+   private java.lang.String insuredName;
+
+   private java.lang.String insuredAddress;
+
+   private java.lang.String insuredCity;
+
+   private java.lang.String insuredState;
+
+   private java.lang.String insuredZip;
+
+   private java.lang.String emplyeeName;
+
+   private java.lang.String employerAddress;
+
+   private java.lang.String employerState;
+
+   private java.lang.String employerCity;
+
+   private java.util.Date dateOfInjury;
+
+   private java.lang.String workLocation;
+
+   private java.lang.String natureOfIllnessorInjury;
+
+   private java.lang.String injuryIllNessDetail;
+
    public Claim()
    {
    }
@@ -47,12 +73,162 @@ public class Claim implements java.io.Serializable
       this.informedDate = informedDate;
    }
 
+   public java.lang.String getInsuredName()
+   {
+      return this.insuredName;
+   }
+
+   public void setInsuredName(java.lang.String insuredName)
+   {
+      this.insuredName = insuredName;
+   }
+
+   public java.lang.String getInsuredAddress()
+   {
+      return this.insuredAddress;
+   }
+
+   public void setInsuredAddress(java.lang.String insuredAddress)
+   {
+      this.insuredAddress = insuredAddress;
+   }
+
+   public java.lang.String getInsuredCity()
+   {
+      return this.insuredCity;
+   }
+
+   public void setInsuredCity(java.lang.String insuredCity)
+   {
+      this.insuredCity = insuredCity;
+   }
+
+   public java.lang.String getInsuredState()
+   {
+      return this.insuredState;
+   }
+
+   public void setInsuredState(java.lang.String insuredState)
+   {
+      this.insuredState = insuredState;
+   }
+
+   public java.lang.String getInsuredZip()
+   {
+      return this.insuredZip;
+   }
+
+   public void setInsuredZip(java.lang.String insuredZip)
+   {
+      this.insuredZip = insuredZip;
+   }
+
+   public java.lang.String getEmplyeeName()
+   {
+      return this.emplyeeName;
+   }
+
+   public void setEmplyeeName(java.lang.String emplyeeName)
+   {
+      this.emplyeeName = emplyeeName;
+   }
+
+   public java.lang.String getEmployerAddress()
+   {
+      return this.employerAddress;
+   }
+
+   public void setEmployerAddress(java.lang.String employerAddress)
+   {
+      this.employerAddress = employerAddress;
+   }
+
+   public java.lang.String getEmployerState()
+   {
+      return this.employerState;
+   }
+
+   public void setEmployerState(java.lang.String employerState)
+   {
+      this.employerState = employerState;
+   }
+
+   public java.lang.String getEmployerCity()
+   {
+      return this.employerCity;
+   }
+
+   public void setEmployerCity(java.lang.String employerCity)
+   {
+      this.employerCity = employerCity;
+   }
+
+   public java.util.Date getDateOfInjury()
+   {
+      return this.dateOfInjury;
+   }
+
+   public void setDateOfInjury(java.util.Date dateOfInjury)
+   {
+      this.dateOfInjury = dateOfInjury;
+   }
+
+   public java.lang.String getWorkLocation()
+   {
+      return this.workLocation;
+   }
+
+   public void setWorkLocation(java.lang.String workLocation)
+   {
+      this.workLocation = workLocation;
+   }
+
+   public java.lang.String getNatureOfIllnessorInjury()
+   {
+      return this.natureOfIllnessorInjury;
+   }
+
+   public void setNatureOfIllnessorInjury(java.lang.String natureOfIllnessorInjury)
+   {
+      this.natureOfIllnessorInjury = natureOfIllnessorInjury;
+   }
+
+   public java.lang.String getInjuryIllNessDetail()
+   {
+      return this.injuryIllNessDetail;
+   }
+
+   public void setInjuryIllNessDetail(java.lang.String injuryIllNessDetail)
+   {
+      this.injuryIllNessDetail = injuryIllNessDetail;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
-         java.util.Date informedDate)
+         java.util.Date informedDate, java.lang.String insuredName,
+         java.lang.String insuredAddress, java.lang.String insuredCity,
+         java.lang.String insuredState, java.lang.String insuredZip,
+         java.lang.String emplyeeName, java.lang.String employerAddress,
+         java.lang.String employerState, java.lang.String employerCity,
+         java.util.Date dateOfInjury, java.lang.String workLocation,
+         java.lang.String natureOfIllnessorInjury,
+         java.lang.String injuryIllNessDetail)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
       this.informedDate = informedDate;
+      this.insuredName = insuredName;
+      this.insuredAddress = insuredAddress;
+      this.insuredCity = insuredCity;
+      this.insuredState = insuredState;
+      this.insuredZip = insuredZip;
+      this.emplyeeName = emplyeeName;
+      this.employerAddress = employerAddress;
+      this.employerState = employerState;
+      this.employerCity = employerCity;
+      this.dateOfInjury = dateOfInjury;
+      this.workLocation = workLocation;
+      this.natureOfIllnessorInjury = natureOfIllnessorInjury;
+      this.injuryIllNessDetail = injuryIllNessDetail;
    }
 
 }
