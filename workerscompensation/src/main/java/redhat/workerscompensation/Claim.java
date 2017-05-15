@@ -320,6 +320,12 @@ public class Claim implements java.io.Serializable
       this.isRejected = isRejected;
    }
 
+    public addReason(java.lang.String reason){
+        
+        if(this.rejectedReasons  == null){
+            this.rejectedReasons = new java.util.ArrayList<java.lang.String>();
+        }
+    }
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
