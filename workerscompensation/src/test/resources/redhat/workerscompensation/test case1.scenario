@@ -8,15 +8,19 @@
       <fieldData>
         <field-data>
           <name>claimWritenNoticeDate</name>
-          <value>01-May-2017</value>
+          <value>03-May-2017</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
       <name>claim</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>3</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
   </fixtures>
+  <lastRunResult>2017-05-15 21:15:41.613 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.workerscompensation</packageName>
