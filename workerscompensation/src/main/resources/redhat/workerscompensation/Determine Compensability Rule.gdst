@@ -27,6 +27,7 @@
           <header>Jurisdiction</header>
           <constraintValueType>1</constraintValueType>
           <factField>insuredState</factField>
+          <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>TX,FL,CA,IL,NY,WI,WA,OH</valueList>
           <parameters/>
@@ -119,7 +120,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -147,7 +148,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -175,7 +176,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
