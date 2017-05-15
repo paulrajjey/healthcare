@@ -39,6 +39,8 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String injuryIllNessDetail;
 
+   private java.lang.String typeofClaim;
+
    public Claim()
    {
    }
@@ -203,6 +205,16 @@ public class Claim implements java.io.Serializable
       this.injuryIllNessDetail = injuryIllNessDetail;
    }
 
+   public java.lang.String getTypeofClaim()
+   {
+      return this.typeofClaim;
+   }
+
+   public void setTypeofClaim(java.lang.String typeofClaim)
+   {
+      this.typeofClaim = typeofClaim;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
@@ -211,7 +223,7 @@ public class Claim implements java.io.Serializable
          java.lang.String employerState, java.lang.String employerCity,
          java.util.Date dateOfInjury, java.lang.String workLocation,
          java.lang.String natureOfIllnessorInjury,
-         java.lang.String injuryIllNessDetail)
+         java.lang.String injuryIllNessDetail, java.lang.String typeofClaim)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -229,6 +241,7 @@ public class Claim implements java.io.Serializable
       this.workLocation = workLocation;
       this.natureOfIllnessorInjury = natureOfIllnessorInjury;
       this.injuryIllNessDetail = injuryIllNessDetail;
+      this.typeofClaim = typeofClaim;
    }
 
 }
