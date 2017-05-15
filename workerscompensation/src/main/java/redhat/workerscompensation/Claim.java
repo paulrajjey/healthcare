@@ -41,6 +41,10 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String typeofClaim;
 
+   private java.lang.String typeOfIllNess;
+
+   private java.lang.String injuryCircumstance;
+
    public Claim()
    {
    }
@@ -215,6 +219,26 @@ public class Claim implements java.io.Serializable
       this.typeofClaim = typeofClaim;
    }
 
+   public java.lang.String getTypeOfIllNess()
+   {
+      return this.typeOfIllNess;
+   }
+
+   public void setTypeOfIllNess(java.lang.String typeOfIllNess)
+   {
+      this.typeOfIllNess = typeOfIllNess;
+   }
+
+   public java.lang.String getInjuryCircumstance()
+   {
+      return this.injuryCircumstance;
+   }
+
+   public void setInjuryCircumstance(java.lang.String injuryCircumstance)
+   {
+      this.injuryCircumstance = injuryCircumstance;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
@@ -223,7 +247,8 @@ public class Claim implements java.io.Serializable
          java.lang.String employerState, java.lang.String employerCity,
          java.util.Date dateOfInjury, java.lang.String workLocation,
          java.lang.String natureOfIllnessorInjury,
-         java.lang.String injuryIllNessDetail, java.lang.String typeofClaim)
+         java.lang.String injuryIllNessDetail, java.lang.String typeofClaim,
+         java.lang.String typeOfIllNess, java.lang.String injuryCircumstance)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -242,6 +267,8 @@ public class Claim implements java.io.Serializable
       this.natureOfIllnessorInjury = natureOfIllnessorInjury;
       this.injuryIllNessDetail = injuryIllNessDetail;
       this.typeofClaim = typeofClaim;
+      this.typeOfIllNess = typeOfIllNess;
+      this.injuryCircumstance = injuryCircumstance;
    }
 
 }
