@@ -45,6 +45,8 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String injuryCircumstance;
 
+   private java.lang.String subClass;
+
    public Claim()
    {
    }
@@ -239,6 +241,16 @@ public class Claim implements java.io.Serializable
       this.injuryCircumstance = injuryCircumstance;
    }
 
+   public java.lang.String getSubClass()
+   {
+      return this.subClass;
+   }
+
+   public void setSubClass(java.lang.String subClass)
+   {
+      this.subClass = subClass;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
@@ -248,7 +260,8 @@ public class Claim implements java.io.Serializable
          java.util.Date dateOfInjury, java.lang.String workLocation,
          java.lang.String natureOfIllnessorInjury,
          java.lang.String injuryIllNessDetail, java.lang.String typeofClaim,
-         java.lang.String typeOfIllNess, java.lang.String injuryCircumstance)
+         java.lang.String typeOfIllNess, java.lang.String injuryCircumstance,
+         java.lang.String subClass)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -269,6 +282,7 @@ public class Claim implements java.io.Serializable
       this.typeofClaim = typeofClaim;
       this.typeOfIllNess = typeOfIllNess;
       this.injuryCircumstance = injuryCircumstance;
+      this.subClass = subClass;
    }
 
 }
