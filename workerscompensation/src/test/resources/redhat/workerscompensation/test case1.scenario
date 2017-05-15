@@ -1,13 +1,29 @@
 <scenario>
-  <name>test case1</name>
+  <name>test case1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>Claim</type>
+      <fieldData>
+        <field-data>
+          <name>claimWritenNoticeDate</name>
+          <value>01-May-2017</value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
+      <name>claim</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>redhat.workerscompensation</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
