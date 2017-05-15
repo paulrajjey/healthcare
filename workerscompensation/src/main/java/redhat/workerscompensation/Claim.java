@@ -56,6 +56,8 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String isRejected;
 
+   private java.lang.String reason;
+
    public Claim()
    {
    }
@@ -320,13 +322,26 @@ public class Claim implements java.io.Serializable
       this.isRejected = isRejected;
    }
 
-    public void addReason(java.lang.String reason){
-        
-        if(this.rejectedReasons  == null){
-            this.rejectedReasons = new java.util.ArrayList<java.lang.String>();
-        }
-        this.rejectedReasons.add(reason);
-    }
+   public void addReason(java.lang.String reason)
+   {
+
+      if (this.rejectedReasons == null)
+      {
+         this.rejectedReasons = new java.util.ArrayList<java.lang.String>();
+      }
+      this.rejectedReasons.add(reason);
+   }
+
+   public java.lang.String getReason()
+   {
+      return this.reason;
+   }
+
+   public void setReason(java.lang.String reason)
+   {
+      this.reason = reason;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
@@ -339,7 +354,7 @@ public class Claim implements java.io.Serializable
          java.lang.String typeOfIllNess, java.lang.String injuryCircumstance,
          java.lang.String subClass, java.util.Date claimWritenNoticeDate,
          java.util.List<java.lang.String> rejectedReasons,
-         java.lang.String isRejected)
+         java.lang.String isRejected, java.lang.String reason)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -364,6 +379,7 @@ public class Claim implements java.io.Serializable
       this.claimWritenNoticeDate = claimWritenNoticeDate;
       this.rejectedReasons = rejectedReasons;
       this.isRejected = isRejected;
+      this.reason = reason;
    }
 
 }
