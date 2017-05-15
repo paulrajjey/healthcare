@@ -320,7 +320,7 @@ public class Claim implements java.io.Serializable
       this.isRejected = isRejected;
    }
 
-    public addReason(java.lang.String reason){
+    public void addReason(java.lang.String reason){
         
         if(this.rejectedReasons  == null){
             this.rejectedReasons = new java.util.ArrayList<java.lang.String>();
