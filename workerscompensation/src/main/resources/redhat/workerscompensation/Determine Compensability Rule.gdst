@@ -56,6 +56,20 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
+      <header>reason for contest compensability</header>
+      <boundName>claim</boundName>
+      <factField>reason</factField>
+      <type>String</type>
+      <update>false</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
       <header>Is Rejected</header>
       <boundName>claim</boundName>
       <factField>isRejected</factField>
@@ -120,6 +134,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Written notice date is more than 7 days</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -148,6 +167,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Written notice date is more than 7 days</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -172,6 +196,11 @@
       </value>
       <value>
         <valueString>14</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Written notice date is more than 7 days</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
