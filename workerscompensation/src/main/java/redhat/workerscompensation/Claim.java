@@ -340,7 +340,7 @@ public class Claim implements java.io.Serializable
    public void setReason(java.lang.String reason)
    {
       this.reason = reason;
-      this.addReason(reason):
+      this.addReason(reason);
    }
 
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
