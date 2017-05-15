@@ -27,7 +27,6 @@
           <header>Jurisdiction</header>
           <constraintValueType>1</constraintValueType>
           <factField>insuredState</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>TX,FL,CA,IL,NY,WI,WA,OH</valueList>
           <parameters/>
