@@ -264,7 +264,7 @@ public class Claim implements java.io.Serializable
        
        Calendar endGDt = Calendar.getInstance();
        Date date = endGDt.getTime();
-       int val = calculateDays(this.claimWritenNoticeDate,endDt);
+       int val = calculateDays(this.claimWritenNoticeDate,date);
        
        return val > days ? true : false;
        
@@ -273,9 +273,9 @@ public class Claim implements java.io.Serializable
        
        
             Calendar start = Calendar.getInstance();
-            start.setTime(sdf.parse(startDate));
+            start.setTime(startDate);
             Calendar end = Calendar.getInstance();
-            end.setTime(sdf.parse(endDate));
+            end.setTime(endDate);
             int workingDays = 0;
             while(!start.after(end))
             {
