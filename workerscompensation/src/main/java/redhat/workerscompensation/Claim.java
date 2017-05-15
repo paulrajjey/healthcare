@@ -259,6 +259,14 @@ public class Claim implements java.io.Serializable
       return this.claimWritenNoticeDate;
    }
    
+   public boolean noOfClaimWrittenNoticeGT(int days){
+       
+       Calendar endDt = Calendar.getInstance();
+       int val = calculateDays(this.claimWritenNoticeDate,endDt);
+       
+       return val > days ? true : false;
+       
+   }
    public int calculateDays(Date startDate , Date endDate){
        
        
