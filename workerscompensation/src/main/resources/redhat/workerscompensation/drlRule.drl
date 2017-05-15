@@ -1,2 +1,8 @@
 package redhat.workerscompensation;
+import java.util.Calendar;
+
+/*function boolean isTooOld(Cint days) {
+    crd.add(Calendar.DAY_OF_YEAR, age);
+    return crd.after(usd);
+}*/
 
