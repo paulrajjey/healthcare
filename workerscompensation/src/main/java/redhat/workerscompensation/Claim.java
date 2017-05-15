@@ -1,4 +1,5 @@
 package redhat.workerscompensation;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -50,6 +51,10 @@ public class Claim implements java.io.Serializable
    private java.lang.String subClass;
 
    private java.util.Date claimWritenNoticeDate;
+
+   private java.util.List<java.lang.String> rejectedReasons;
+
+   private java.lang.String isRejected;
 
    public Claim()
    {
@@ -259,38 +264,60 @@ public class Claim implements java.io.Serializable
    {
       return this.claimWritenNoticeDate;
    }
-   
-   public boolean noOfClaimWrittenNoticeGT(int days){
-       
-       Calendar endGDt = Calendar.getInstance();
-       Date date = endGDt.getTime();
-       int val = calculateDays(this.claimWritenNoticeDate,date);
-       
-       return val > days ? true : false;
-       
+
+   public boolean noOfClaimWrittenNoticeGT(int days)
+   {
+
+      Calendar endGDt = Calendar.getInstance();
+      Date date = endGDt.getTime();
+      int val = calculateDays(this.claimWritenNoticeDate, date);
+
+      return val > days ? true : false;
+
    }
-   public int calculateDays(Date startDate , Date endDate){
-       
-       
-            Calendar start = Calendar.getInstance();
-            start.setTime(startDate);
-            Calendar end = Calendar.getInstance();
-            end.setTime(endDate);
-            int workingDays = 0;
-            while(!start.after(end))
-            {
-                int day = start.get(Calendar.DAY_OF_WEEK);
-                if ((day != Calendar.SATURDAY) && (day != Calendar.SUNDAY))
-                    workingDays++;
-                start.add(Calendar.DATE, 1);
-            }
-            System.out.println(workingDays);
-        return workingDays;
+
+   public int calculateDays(Date startDate, Date endDate)
+   {
+
+      Calendar start = Calendar.getInstance();
+      start.setTime(startDate);
+      Calendar end = Calendar.getInstance();
+      end.setTime(endDate);
+      int workingDays = 0;
+      while (!start.after(end))
+      {
+         int day = start.get(Calendar.DAY_OF_WEEK);
+         if ((day != Calendar.SATURDAY) && (day != Calendar.SUNDAY))
+            workingDays++;
+         start.add(Calendar.DATE, 1);
+      }
+      System.out.println(workingDays);
+      return workingDays;
    }
 
    public void setClaimWritenNoticeDate(java.util.Date claimWritenNoticeDate)
    {
       this.claimWritenNoticeDate = claimWritenNoticeDate;
+   }
+
+   public java.util.List<java.lang.String> getRejectedReasons()
+   {
+      return this.rejectedReasons;
+   }
+
+   public void setRejectedReasons(java.util.List<java.lang.String> rejectedReasons)
+   {
+      this.rejectedReasons = rejectedReasons;
+   }
+
+   public java.lang.String getIsRejected()
+   {
+      return this.isRejected;
+   }
+
+   public void setIsRejected(java.lang.String isRejected)
+   {
+      this.isRejected = isRejected;
    }
 
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
@@ -303,7 +330,9 @@ public class Claim implements java.io.Serializable
          java.lang.String natureOfIllnessorInjury,
          java.lang.String injuryIllNessDetail, java.lang.String typeofClaim,
          java.lang.String typeOfIllNess, java.lang.String injuryCircumstance,
-         java.lang.String subClass, java.util.Date claimWritenNoticeDate)
+         java.lang.String subClass, java.util.Date claimWritenNoticeDate,
+         java.util.List<java.lang.String> rejectedReasons,
+         java.lang.String isRejected)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -326,6 +355,8 @@ public class Claim implements java.io.Serializable
       this.injuryCircumstance = injuryCircumstance;
       this.subClass = subClass;
       this.claimWritenNoticeDate = claimWritenNoticeDate;
+      this.rejectedReasons = rejectedReasons;
+      this.isRejected = isRejected;
    }
 
 }
