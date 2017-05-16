@@ -58,6 +58,8 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String reason;
 
+   private java.lang.String status;
+
    public Claim()
    {
    }
@@ -343,6 +345,16 @@ public class Claim implements java.io.Serializable
       this.addReason(reason);
    }
 
+   public java.lang.String getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.String status)
+   {
+      this.status = status;
+   }
+
    public Claim(java.lang.String claimId, java.util.Date dateOfNotice,
          java.util.Date informedDate, java.lang.String insuredName,
          java.lang.String insuredAddress, java.lang.String insuredCity,
@@ -355,7 +367,8 @@ public class Claim implements java.io.Serializable
          java.lang.String typeOfIllNess, java.lang.String injuryCircumstance,
          java.lang.String subClass, java.util.Date claimWritenNoticeDate,
          java.util.List<java.lang.String> rejectedReasons,
-         java.lang.String isRejected, java.lang.String reason)
+         java.lang.String isRejected, java.lang.String reason,
+         java.lang.String status)
    {
       this.claimId = claimId;
       this.dateOfNotice = dateOfNotice;
@@ -381,6 +394,7 @@ public class Claim implements java.io.Serializable
       this.rejectedReasons = rejectedReasons;
       this.isRejected = isRejected;
       this.reason = reason;
+      this.status = status;
    }
 
 }
