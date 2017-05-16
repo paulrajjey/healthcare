@@ -1,0 +1,248 @@
+
+<form id="674295075">
+<property name="name" value="workerscompensation.CompensationClaimProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="30" name="recipient_displayName" type="InputText" id="1639671551">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;displayName (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/displayName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="adjuster" type="InputText" id="1760072494">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;adjuster (adjuster)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="adjuster"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="claim_injuryCircumstance" type="InputText" id="1097717606">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;injuryCircumstance (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/injuryCircumstance"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="claim_claimId" type="InputText" id="1254896797">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimId (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/claimId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="29" name="recipient_claimId" type="InputText" id="1717995959">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimId (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/claimId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="claim_emplyeeName" type="InputText" id="1575969725">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emplyeeName (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/emplyeeName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="claim_insuredName" type="InputText" id="199039055">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuredName (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/insuredName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="26" name="claim_workLocation" type="InputText" id="1331732658">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workLocation (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/workLocation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="claim_insuredState" type="InputText" id="717389780">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuredState (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/insuredState"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="claim_insuredZip" type="InputText" id="110830787">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuredZip (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/insuredZip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="claim_rejectedReasons" bag-type="java.lang.String" type="MultipleInput" id="1807848412">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rejectedReasons (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/rejectedReasons"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="22" name="claim_status" type="InputText" id="322156781">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="claim_reason" type="InputText" id="1968690120">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reason (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/reason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="31" name="recipient_dueDays" type="InputText" id="921454195">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dueDays (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/dueDays"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="32" name="recipient_recipientName" type="InputText" id="378403154">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;recipientName (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/recipientName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="claim_injuryIllNessDetail" type="InputText" id="93002283">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;injuryIllNessDetail (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/injuryIllNessDetail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="claim_insuredCity" type="InputText" id="1296770731">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuredCity (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/insuredCity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name="claim_typeofClaim" type="InputText" id="1481122600">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;typeofClaim (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/typeofClaim"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="claim_isRejected" type="InputText" id="1650065272">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isRejected (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/isRejected"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="claim_insuredAddress" type="InputText" id="838544605">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuredAddress (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/insuredAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="claim_natureOfIllnessorInjury" type="InputText" id="1082396194">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;natureOfIllnessorInjury (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/natureOfIllnessorInjury"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="claim_dateOfInjury" type="InputDate" id="353488057">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dateOfInjury (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/dateOfInjury"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="28" name="recipient_actionItem" type="InputText" id="1349319044">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actionItem (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/actionItem"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="33" name="recipient_recipientRole" type="InputText" id="1893163839">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;recipientRole (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/recipientRole"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="27" name="recipient_actionDetail" type="InputText" id="1223448773">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actionDetail (recipient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="recipient/actionDetail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="claim_subClass" type="InputText" id="134465129">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;subClass (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/subClass"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="claim_claimWritenNoticeDate" type="InputDate" id="1966068867">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimWritenNoticeDate (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/claimWritenNoticeDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name="claim_employerState" type="InputText" id="1054015743">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employerState (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/employerState"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="claim_typeOfIllNess" type="InputText" id="1399866591">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;typeOfIllNess (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/typeOfIllNess"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="claim_dateOfNotice" type="InputDate" id="1650937431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dateOfNotice (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/dateOfNotice"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="claim_employerCity" type="InputText" id="877169598">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employerCity (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/employerCity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="approvalStatus" type="InputText" id="13102142">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvalStatus (approvalStatus)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approvalStatus"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="claim_employerAddress" type="InputText" id="137450123">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employerAddress (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/employerAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="claim_informedDate" type="InputDate" id="1590616436">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;informedDate (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/informedDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="adjuster" value="java.lang.String" id="adjuster"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="approvalStatus" value="java.lang.String" id="approvalStatus"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="claim" value="redhat.workerscompensation.Claim" id="claim"/>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="recipient" value="redhat.workerscompensation.RecepientAction" id="recipient"/>
+</form>
