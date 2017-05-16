@@ -40,7 +40,7 @@
           <factField>subClass</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList>New,Open,Progress,reopen</valueList>
+          <valueList>Complex,Indemnity,Long Term Indemnity,Medical Only - Investigate</valueList>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -57,6 +57,22 @@
           <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>TX,FL,CA,NY,NC,IL,WI</valueList>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>claim status</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>status</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <valueList>New,Open,reopen</valueList>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -209,12 +225,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>New</valueString>
+        <valueString>Complex</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueString>TX</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -259,12 +280,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>New</valueString>
+        <valueString>Long Term Indemnity</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueString>CA</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>New</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -309,7 +335,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>New</valueString>
+        <valueString>Medical Only - Investigate</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -319,7 +345,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueString>New</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -330,12 +361,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>recipientCA</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>7d</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
