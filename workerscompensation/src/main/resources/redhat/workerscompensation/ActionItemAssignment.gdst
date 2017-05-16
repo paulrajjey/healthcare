@@ -182,7 +182,7 @@
       <boundName>actionItem</boundName>
       <factField>dueDays</factField>
       <type>String</type>
-      <valueList>1d,2d,3d,4d,5d,6d,7d,8d,9d,10d</valueList>
+      <valueList>P1d,P2d,P3d,P4d,P5d,P6d,P7d,P8d,P9d,P10d</valueList>
       <update>false</update>
     </set-field-col52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -293,7 +293,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>5d</valueString>
+        <valueString>P5d</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -359,7 +359,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>5d</valueString>
+        <valueString>P7d</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -425,7 +425,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>7d</valueString>
+        <valueString>P8d</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
