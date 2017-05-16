@@ -420,7 +420,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>recipientCA</valueString>
+        <valueString>recipientFL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
