@@ -30,7 +30,7 @@
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
-          <hideColumn>false</hideColumn>
+          <hideColumn>true</hideColumn>
           <width>179</width>
           <header>claim id</header>
           <constraintValueType>1</constraintValueType>
@@ -96,7 +96,7 @@
       <entryPointName></entryPointName>
     </Pattern52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
+      <hideColumn>true</hideColumn>
       <width>-1</width>
       <header>claimIdwithActionClaim</header>
       <constraintValueType>1</constraintValueType>
@@ -130,7 +130,7 @@
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
+          <hideColumn>true</hideColumn>
           <width>-1</width>
           <header>claimIdwithActionClaim</header>
           <constraintValueType>1</constraintValueType>
@@ -186,7 +186,7 @@
       <update>false</update>
     </set-field-col52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
+      <hideColumn>true</hideColumn>
       <width>-1</width>
       <header>log</header>
       <definition>
@@ -196,7 +196,7 @@
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
+          <hideColumn>true</hideColumn>
           <width>-1</width>
           <header>log</header>
           <varName></varName>
