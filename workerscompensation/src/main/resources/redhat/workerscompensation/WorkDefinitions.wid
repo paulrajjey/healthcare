@@ -57,5 +57,22 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
   ]
+,
 
+  [
+    "name" : "DB connection",
+    "parameters" : [
+        "Url" : new StringDataType(),
+        "Method" : new StringDataType(),
+        "ConnectTimeout" : new StringDataType(),
+        "ReadTimeout" : new StringDataType(),
+        "Username" : new StringDataType(),
+        "Password" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "DbConnection",
+    "icon" : "defaultservicenodeicon.png"
+  ]
 ]
