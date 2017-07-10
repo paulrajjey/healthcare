@@ -1,9 +1,0 @@
-package redhat.workerscompensation;
-
-import java.lang.Number;
-
-rule "GuideRule"
-	dialect "mvel"
-	when
-	then
-end
