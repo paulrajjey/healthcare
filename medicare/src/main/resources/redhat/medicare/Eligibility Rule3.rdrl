@@ -6,7 +6,7 @@ rule "Eligibility Rule3"
 	dialect "mvel"
 	no-loop true
 	when
-		app : MedicareApplicant( st : state not in ( "MN", "WI" ) )
+		app : MedicareApplicant( st : state not in ( "MN", "WI", "IL", "NY", "NC" ) )
 	then
 		modify( app ) {
 				setEligibiliy( "N" ), 
