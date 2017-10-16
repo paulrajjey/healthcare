@@ -402,7 +402,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>$10</valueString>
+        <valueString>$90</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -450,7 +450,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>20%</valueString>
+        <valueString>$20</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
