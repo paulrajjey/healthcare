@@ -3,14 +3,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>brms7-maven-repository</id>
         <url>file:///Users/jpaulraj/bxms-7-cr2/download/jboss-bpmsuite-7.0.0.LA-maven-repository/maven-repository/</url>
         <source>SETTINGS</source>
@@ -22,6 +14,14 @@
         <id>local</id>
         <url>/Users/jpaulraj/.m2/repository</url>
         <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
   </repositories>

@@ -15,18 +15,18 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-     <groupId>org.kie</groupId>
-     <artifactId>kie-api</artifactId>
-     <version>6.4.0.Final-redhat-6</version>
-     <scope>provided</scope>
-</dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>6.4.0.Final-redhat-6</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
       <plugin>
         <groupId>org.kie</groupId>
         <artifactId>kie-maven-plugin</artifactId>
-        <version>6.4.0.Final-redhat-6</version>
+        <version>6.5.0.Final-redhat-2</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>
